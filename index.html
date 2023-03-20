@@ -1,0 +1,242 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Los Simpson</title>
+  </head>
+  <body>
+
+    <!-- NavBar -->
+
+      <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #F8C947;">
+        <div class="container-fluid" id="#start">
+
+            <!-- Logo-Navbar -->
+
+          <a class="navbar-brand" href="#">
+            <img src="assets/logo.png" alt="logo" width="100px" height="60px">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <!-- Navbar -->
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#" id="start"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-house-door" viewBox="0 0 16 16">
+                    <path d="M8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h4.5a.5.5 0 0 0 .5-.5v-4h2v4a.5.5 0 0 0 .5.5H14a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.354 1.146ZM2.5 14V7.707l5.5-5.5 5.5 5.5V14H10v-4a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 0-.5.5v4H2.5Z"/>
+                  </svg> Inicio</a> 
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="https://simpsons.fandom.com/es/wiki/The_Simpsons#:~:text=La%20serie%20es%20una%20s%C3%A1tira,un%20pueblo%20ficticio%20llamado%20Springfield."><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-file-text" viewBox="0 0 16 16">
+                  <path d="M5 4a.5.5 0 0 0 0 1h6a.5.5 0 0 0 0-1H5zm-.5 2.5A.5.5 0 0 1 5 6h6a.5.5 0 0 1 0 1H5a.5.5 0 0 1-.5-.5zM5 8a.5.5 0 0 0 0 1h6a.5.5 0 0 0 0-1H5zm0 2a.5.5 0 0 0 0 1h3a.5.5 0 0 0 0-1H5z"/>
+                  <path d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V2zm10-1H4a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1z"/>
+                </svg>Historia</a>  
+              </li>
+
+                <!-- Dropdown-Personajes -->
+
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-people" viewBox="0 0 16 16">
+                  <path d="M15 14s1 0 1-1-1-4-5-4-5 3-5 4 1 1 1 1h8Zm-7.978-1A.261.261 0 0 1 7 12.996c.001-.264.167-1.03.76-1.72C8.312 10.629 9.282 10 11 10c1.717 0 2.687.63 3.24 1.276.593.69.758 1.457.76 1.72l-.008.002a.274.274 0 0 1-.014.002H7.022ZM11 7a2 2 0 1 0 0-4 2 2 0 0 0 0 4Zm3-2a3 3 0 1 1-6 0 3 3 0 0 1 6 0ZM6.936 9.28a5.88 5.88 0 0 0-1.23-.247A7.35 7.35 0 0 0 5 9c-4 0-5 3-5 4 0 .667.333 1 1 1h4.216A2.238 2.238 0 0 1 5 13c0-1.01.377-2.042 1.09-2.904.243-.294.526-.569.846-.816ZM4.92 10A5.493 5.493 0 0 0 4 13H1c0-.26.164-1.03.76-1.724.545-.636 1.492-1.256 3.16-1.275ZM1.5 5.5a3 3 0 1 1 6 0 3 3 0 0 1-6 0Zm3-2a2 2 0 1 0 0 4 2 2 0 0 0 0-4Z"/>
+                </svg>
+                  Personajes
+                </a>
+
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#homer1">Homero Simpson</a></li>
+                  <li><a class="dropdown-item" href="#marge1">Marge Simpson</a></li>
+                  <li><a class="dropdown-item" href="#bart1">Bart Simpson</a></li>
+                  <li><a class="dropdown-item" href="#lisa1">Lisa Simpson</a></li>
+                  <li><a class="dropdown-item" href="#maggie1">Maggie Simpson</a></li>
+                  <li><a class="dropdown-item" href="https://www.youtube.com/watch?v=vmCmRMilbLA">Puerco Araña <img src="assets/cerdo-araña.png" alt="spider-pig" width="20px" height="20px"></a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="https://simpsons.fandom.com/es/wiki/Gu%C3%ADa_de_personajes">¡Mas personajes!</a></li>
+                </ul>
+
+                <!-- Buscador -->
+
+            </ul>
+            <form class="d-flex justify-content-center me-auto">
+              <input class="form-control me-3" type="search" placeholder="Buscar" aria-label="Search">
+              <button class="btn btn-outline-success" style="--bs-btn-color:#000000; --bs-btn-border-color:#000000;" type="submit">Buscador</button>
+            </form>
+
+                <!-- Redes -->
+
+            <button type="button" class="btn btn-primary" style="margin-right: 1%;"> 
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+                    <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"></path>
+                </svg> <a class="hr1" href="https://www.facebook.com/TheSimpsons/?locale=es_LA"> Facebook</a>
+
+            </button>
+
+            <button type="button" class="btn btn-primary" style="margin-right: 1%;">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16">
+                  <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"/>
+                </svg><a  class="hr1" href="https://twitter.com/TheSimpsons"> Twitter</a>
+            </button>
+
+            <button type="button" class="btn btn-primary" style="margin-right: 1%;">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+                  <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"/>
+                </svg> <a class="hr1"  href="https://www.instagram.com/thesimpsons/"> Instagram</a>
+            </button>
+          </div>
+        </div>
+      </nav>
+
+      <!-- Carrusel -->
+
+      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+        </div>
+
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="assets/homer.jpg" class="d-block w-100" height="531vh" alt="homer">
+            <div class="carousel-caption d-none d-md-block">
+              <h1>Homero Simpson</h1>
+              <p>Es el primer y único hijo legítimo de Abraham Simpson y de Mona J. Simpson. Está casado con Marjorie Bouvier y es el padre de Bartholomew (Bart), Lisa y Margaret (Maggie).</p>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <img src="assets/marge.jpeg" class="d-block w-100" height="531vh" alt="marge">
+            <div class="carousel-caption d-none d-md-block">
+              <h1>Marge Simpson</h1>
+              <p>Se crio en una zona rural de la Norteamérica sureña, en una granja con un ambiente muy familiar e iba de vacaciones con toda la familia a Barnacle Bay, una isla en la costa de Springfield.</p>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <img src="assets/bart.jpg" class="d-block w-100" height="531vh" alt="bart">
+            <div class="carousel-caption d-none d-md-block">
+              <h1>Bart Simpson</h1>
+              <p>Es un niño al que no le gusta estudiar, pero asiste con regularidad a la escuela. Prefiere pasar su tiempo libre fuera de casa, desatendiendo sus tareas escolares, socializando con sus amigos, montando en skate y planeando bromas o travesuras con su mejor amigo Milhouse</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="assets/lisa.jpg" class="d-block w-100" height="531vh" alt="lisa">
+            <div class="carousel-caption d-none d-md-block">
+              <h1>Lisa Simpson</h1>
+              <p>Lisa Simpson representa la incansable activista frustrada, ha servido como estandarte para causas ecológicas, y tambien una defensora de causas feministas es el vehículo para proyectar la serie hacia nuevas ideologías y religiones orientales; por lo que es considerada como el "centro ético y moral de la Familia Simpson"</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <!-- Personajes -->
+
+      <div class="Personajes">
+        <div class="row">
+          <div class="col-xl-6" id="homer1"> <br>
+            <h1 class="homertitulo">Homero Simpson</h1>
+            <p class="homer"> <br> es el protagonista principal de la serie televisiva Los Simpson. Es el prototipo del hombre de clase media estadounidense: desinteresado, obeso, alcohólico, y algo torpe. Es considerado uno de los personajes animados más populares alrededor del mundo. Ha tenido muchas apariciones en diferentes medios debido a ser un ícono de la cultura popular moderna, incluyendo series, cine y comerciales.</p>
+
+            <div class="d-grid gap-2" >  <br>
+              <button class="btn btn-primary" type="button"><a href="#pjnext1" class="pjnext1">¡Siguiente Personaje!</a></button>
+            </div>
+          </div>
+
+          <div class="col-xl-6 col-md-12 col-xs-12 homertext1">
+            <iframe class="hvideo" width="85%" height="80%" src="https://www.youtube.com/embed/wrAoswsvHwg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          </div>
+          
+        </div>
+
+        <div class="row"><br><br><br></div>
+
+
+        <div class="row">
+
+            <div class="col-xl-6 col-md-12 col-xs-12 hvideo2" id="marge1 pjnext1"> <br>
+              <iframe width="85%" height="100%" src="https://www.youtube.com/embed/NPX6Oc9rgbo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="margin-left: 10%;"></iframe>
+            </div> 
+
+            <div class="col-xl-6 col-md-12 col-xs-12 homertext1" id="marge1">
+              <h1 class="homertitulo" id="pjnext1" style="margin-top: 10%;">Marge Simpson</h1>
+              <p class="homer"> <br> El personaje de Marge Simpson ha ahondado en los roles arquetípicos que suelen desempeñar las esposas amas de casa en las series de animación, en la misma línea promovida por Hanna Barbera con Vilma Picapiedra o Jane Jetson. Su apasionada y ciega dedicación a su desagradecida familia ha servido de modelo moderno para otros personajes femeninos en series de animación posteriores. Por ello, ha sido considerada como la mejor madre tanto ficticia como real por el público británico.</p>
+  
+                <div class="d-grid gap-2" >  <br>
+                  <button class="btn btn-primary" type="button"><a href="#pjnext2" class="pjnext1">¡Siguiente Personaje!</a></button>
+                </div>
+  
+            </div>
+        </div>
+
+
+        <div class="row"><br><br><br></div>
+
+        <div class="row">
+          <div class="col-xl-6 col-md-12 col-xs-12" id="bart1"> <br>
+            <h1 class="homertitulo" id="pjnext2" style="margin-top: 6%;">Bart Simpson</h1><br><br>
+              <div class="col-xl-12 col-md-12 col-xs-12  d-flex">
+                <img  src="assets/bart-body.png" alt="bart-simpson" width="33%" height="20%"><p class="homer">Bart es decididamente el más rebelde y travieso de la familia. Es un muchacho simpático y también muy travieso, que hace muchas bromas con su mejor amigo Milhouse. Sigue los programas de su ídolo Krusty el Payaso. Es desobediente y hace todo lo que le pasa por la cabeza. Su nombre es un anagrama de "brat", que en inglés significa "travieso". Su ideología es "yo no fui, nadie me vio, no pueden demostrarlo". También en un capítulo Seymour Skinner descubre que es alérgico al camarón.</p>
+              </div>
+          </div> 
+
+          <div class="col-xl-6 col-md-12 col-xs-12 homertext1" id="lisa1">
+            <h1 class="homertitulo" style="margin-top: 10%;">Lisa Simpson</h1><br><br>
+              <div class="col-xl-12 d-flex">
+                <p class="homer">Lisa Simpson desempeña el papel del miembro de la familia destacado, con un gran futuro por delante del que apenas se aprovecha su potencial intelectual. Representa la niñita de ocho años superdotada, activista, idealista, responsable y frustrada; cuyas ganas de hacerse mayor y querer ser tratada como una persona adulta chocan constantemente con su edad y crecimiento. Sus dos roles principales en la serie consisten en plantear los problemas típicos que conlleva la convivencia de dos hermanos de diferente sexo con apenas dos años de diferencia y en cuestionar constantemente los valores del mundo adulto a través de un prisma infantil excesivamente crítico e ingenuo. </p>
+                <img src="assets/lisa-body.png" alt="lisa-simpson" width="400%" height="100%">
+              </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="d-grid gap-2" >  <br>
+            <button class="btn btn-primary" type="button"><a href="#pjnext3" class="pjnext1">¡Siguiente Personaje!</a></button>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-xl-6 col-md-12 col-xs-12" id="maggie1"> <br>
+            <h1 class="homertitulo" id="pjnext3">Maggie Simpson</h1>
+            <p class="homer"> <br> Maggie tiene una gran capacidad de comunicación y a pesar de ser un bebe, ha demostrado ser muy inteligente. Ella no tiene aprecio por casi ningún otro niño, en especial por Gerald, el bebé de una sola ceja, por lo tanto no tiene amigos pero se le ve ayudando en la guardería en el episodio "Un tranvía llamado Marge". Su primera palabra fue "papi", la que dijo en el episodio "La primera palabra de Maggie". También dijo "secuela" (The Simpsons Movie), "perfectirijillo" y "Ja" (Sí en noruego) (Coming to Homerica).</p>
+
+            <div class="d-grid gap-2" >  <br>
+              <button class="btn btn-primary" type="button"><a href="https://www.youtube.com/watch?v=vmCmRMilbLA" class="pjnext1">¡Siguiente Personaje!</a></button>
+            </div>
+          </div>
+
+          <div class="col-xl-6 col-md-12 col-xs-12 homertext1">
+            <iframe width="85%" height="80%" style="margin-top: 10%; margin-left: 5%;" src="https://www.youtube.com/embed/SHrEpvGN5KI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          </div>
+        </div>
+
+        <div class="row"><br><br></div>
+
+        <div class="row">
+          <div class="col-xl-12">
+            <h1 class="footer homertitulo" id="start"><a class="hr1" href="#">Inicio</a><a class="hr1" href="https://github.com/yyu4nn">  Github</a></h1>
+          </div>
+        </div>
+
+      </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+  </body>
+</html>
