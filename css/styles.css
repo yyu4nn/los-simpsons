@@ -7,6 +7,11 @@
     margin: 0;
 }
 
+@font-face {
+    font-family: simp;
+    src: url(../font/simp.otf);
+}
+
 .fb{
     margin-left: 15%;
 }
@@ -22,6 +27,7 @@
 .homertitulo{
     text-align: center;
     margin-top: 3%;
+    font-family: simp;
 
 }
 
